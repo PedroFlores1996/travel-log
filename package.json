@@ -1,0 +1,15 @@
+{
+  "name": "first-mvc-app",
+  "version": "1.0.0",
+  "description": "My first Node.js application, following an MVC architecture.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Pedro Albuquerque",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
