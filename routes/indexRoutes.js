@@ -9,5 +9,5 @@ const routerLog = (req, res, next) => {
 };
 router.use(routerLog);
 
-router.get("/", indexController.index);
+router.route("/").get(indexController.index);
 module.exports = router;
